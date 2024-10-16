@@ -1,0 +1,29 @@
+body {
+    background-color: pink;
+}
+#topo {
+    text-align: right;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+#topo a {
+    color: rgb(97, 95, 95);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    position: relative;
+    padding-right: 10px;
+}
+
+#nome {
+    text-indent: 250px;
+    transform: translateY(40px);
+}
+#sobre{
+    text-indent: 250px;
+    transform: translateY(35px);
+}
