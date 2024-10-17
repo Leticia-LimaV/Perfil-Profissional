@@ -1,6 +1,17 @@
 body {
-    background-color: pink;
+    background-color: rgb(246, 211, 217);
 }
+
+#foto{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        background-image: url('Perfil\ Profissional.jpeg');
+        background-size: cover;
+        background-position: center;
+        transform: translateY(40px);
+      }
+
 #topo {
     text-align: right;
     background-color: white;
@@ -19,11 +30,28 @@ body {
     padding-right: 10px;
 }
 
+.container {
+    transform: translateX(-70px);
+}
 #nome {
     text-indent: 250px;
-    transform: translateY(40px);
+    transform: translateX(100px);
+    transform: translateY(-104px);
+    color: rgb(97, 95, 95);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
 }
-#sobre{
+#sobre1{
     text-indent: 250px;
-    transform: translateY(35px);
+    transform: translateY(-100px);
+    color: rgb(97, 95, 95);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+#sobre2 {
+    text-indent: 250px;
+    transform: translateY(-115px);
+    color: rgb(97, 95, 95);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
 }
