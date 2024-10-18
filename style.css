@@ -13,7 +13,7 @@ body {
       }
 
 #topo {
-    text-align: right;
+    text-align: center;
     background-color: white;
     position: absolute;
     top: 0;
@@ -27,7 +27,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
     position: relative;
-    padding-right: 10px;
+    padding-right: 16px;
 }
 
 .container {
@@ -54,4 +54,35 @@ body {
     color: rgb(97, 95, 95);
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
+}
+
+#topo1{
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 400px;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-align: center;
+    color: rgb(97, 95, 95);
+    font-weight: normal;
+    
+}
+
+#q1 {
+    position: absolute;
+    background-color:  rgb(97, 95, 95);
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    right: 450px;
+    bottom: 160px;
+    transform: translateY(50px);
+}
+#q1,p {
+    
 }
