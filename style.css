@@ -1,26 +1,33 @@
-#menu {
-    position: relative;
-    z-index: 2;
-} 
-
-#menu a {
-    z-index: 2; 
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    color:black;
-    padding: 10px;
-}
-
 #cor1 {
     z-index: 1;
-    ;position: absolute;
-    background-color: aqua;
+    position: absolute;
+    background-color: #b6226e; /* Fundo azul escuro */
     width: 100%;
     left: 0;
     top: 0;
 }
 
 #cor1 p {
-    color: aqua;
+    color: #b6226e; /* Texto branco */
+}
+
+#menu {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    transform: translateY(7px);
+}
+
+#menu a {
+    position: relative;
+    padding: 7px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #FFFFFF; /* Links brancos */
+}
+
+#menu a:hover {
+    background-color: #000000; /* Fundo dourado claro no hover */
+    color: #FFFFFF; /* Cor do texto no hover */
 }
