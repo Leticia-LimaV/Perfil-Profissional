@@ -1,88 +1,26 @@
-body {
-    background-color: rgb(246, 211, 217);
-}
-
-#foto{
-        width: 140px;
-        height: 140px;
-        border-radius: 50%;
-        background-image: url('Perfil\ Profissional.jpeg');
-        background-size: cover;
-        background-position: center;
-        transform: translateY(40px);
-      }
-
-#topo {
-    text-align: center;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-#topo a {
-    color: rgb(97, 95, 95);
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
+#menu {
     position: relative;
-    padding-right: 16px;
+    z-index: 2;
+} 
+
+#menu a {
+    z-index: 2; 
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
 }
 
-.container {
-    transform: translateX(-70px);
-}
-#nome {
-    text-indent: 250px;
-    transform: translateX(100px);
-    transform: translateY(-104px);
-    color: rgb(97, 95, 95);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-}
-#sobre1{
-    text-indent: 250px;
-    transform: translateY(-100px);
-    color: rgb(97, 95, 95);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-}
-#sobre2 {
-    text-indent: 250px;
-    transform: translateY(-115px);
-    color: rgb(97, 95, 95);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-}
-
-#topo1{
-    text-align: center;
-    background-color: white;
-    position: absolute;
-    right: 0;
+#cor1 {
+    z-index: 1;
+    ;position: absolute;
+    background-color: aqua;
+    width: 100%;
     left: 0;
-    height: 400px;
-}
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-    text-align: center;
-    color: rgb(97, 95, 95);
-    font-weight: normal;
-    
+    top: 0;
 }
 
-#q1 {
-    position: absolute;
-    background-color:  rgb(97, 95, 95);
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    right: 450px;
-    bottom: 160px;
-    transform: translateY(50px);
-}
-#q1,p {
-    
+#cor1 p {
+    color: aqua;
 }
