@@ -50,7 +50,7 @@
     object-fit: cover;
   }
 
-  #t1 {
+  #Sobre {
     transform: translate(200px, -100px);
     color: #b6226e;
     position: absolute;
@@ -90,22 +90,23 @@
     position: absolute;
     background-color: #b6226e;
     width: 100%;
-    height: 250px;
+    height: 280px;
     transform: translateY(340px);
     left: 0;
   }
+
 
   #cor4 {
     z-index: 3;
     position: absolute;
     background-color: #b6226e;
     width: 100%;
-    height: 54px;
-    transform: translateY(700px);
+    height: 300px;
+    transform: translateY(652px);
     left: 0;
   }
 
-  #t2 {
+  #Portifólio {
     z-index: 4;
     transform: translate(720px, 50px);
     text-align: center;
@@ -115,7 +116,7 @@
     font-size: 20px;
   }
 
-#t3 {
+#Skills {
   z-index: 4;
   transform: translate(735px, 350px);
   text-align: center;
@@ -128,8 +129,71 @@
 #f1 {
   z-index: 5;
   position: absolute;
-  transform: translate(560px, 700px);
+  transform: translate(560px, 900px);
   font-family: 'Times New Roman', Times, serif;
   font-size: 17px;
-  color: #ffffff;
+  color: #000000;
 }
+
+#bloco1 {
+  z-index: 6;
+  position: absolute;
+  background-color: #ffffff; /* Cor de fundo */
+  border: 1px solid #ffffff; /* Borda */
+  height: 40px;
+  border-radius: 10px; /* Borda arredondada */
+  transform: translate(20px, 400px);
+  line-height: 5px ;
+}
+
+#bloco2 {
+  z-index: 6;
+  position: absolute;
+  background-color: #ffffff; /* Cor de fundo */
+  border: 1px solid #ffffff; /* Borda */
+  height: 40px;
+  border-radius: 10px; /* Borda arredondada */
+  transform: translate(20px, 450px);
+  line-height: 5px ;
+}
+
+#bloco3 {
+  z-index: 6;
+  position: absolute;
+  background-color: #ffffff; /* Cor de fundo */
+  border: 1px solid #ffffff; /* Borda */
+  height: 40px;
+  border-radius: 10px; /* Borda arredondada */
+  transform: translate(20px, 500px);
+  line-height: 5px ;
+}
+
+#bloco4 {
+  z-index: 6;
+  position: absolute;
+  background-color: #ffffff; /* Cor de fundo */
+  border: 1px solid #ffffff; /* Borda */
+  height: 40px;
+  border-radius: 10px; /* Borda arredondada */
+  transform: translate(20px, 550px);
+  line-height: 5px ;
+}
+
+#Contato {
+  z-index: 7;
+  position: absolute;
+  transform: translate(700px, 650px);
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+#mapa {
+  position: absolute;
+  z-index: 7;
+  transform: translate(100px, 700px);
+  width: 300px;
+  height: 220px;
+}
+
