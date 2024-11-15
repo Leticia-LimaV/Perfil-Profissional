@@ -127,12 +127,12 @@
 }
 
 #f1 {
-  z-index: 5;
+  z-index: 10;
   position: absolute;
-  transform: translate(560px, 900px);
+  transform: translate(560px, 1210px);
   font-family: 'Times New Roman', Times, serif;
   font-size: 17px;
-  color: #000000;
+  color: #ffffff;
 }
 
 #bloco1 {
@@ -273,4 +273,14 @@ textarea.form-control3 {
 
 #enviar:hover {
   background-color: #000000; /* Cor ao passar o mouse */
+}
+
+#cor6 {
+  z-index: 9;
+  position: absolute;
+  background-color: #b6226e ;
+  width: 100%;
+  left: 0;
+  height: 70px;
+  transform: translateY(1200px);
 }
