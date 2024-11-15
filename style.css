@@ -23,7 +23,7 @@
     padding: 7px;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size 17 18px;
     color: #FFFFFF; /* Links brancos */
 }
 
@@ -55,7 +55,7 @@
     color: #b6226e;
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-size 17 22px;
   }
 
 
@@ -64,7 +64,7 @@
     transform: translate(200px, -55px);
     color: #b6226e;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
+    font-size 17 17px;
   }
 
   #s2 {
@@ -101,7 +101,7 @@
     position: absolute;
     background-color: #b6226e;
     width: 100%;
-    height: 300px;
+    height: 375px;
     transform: translateY(652px);
     left: 0;
   }
@@ -197,3 +197,80 @@
   height: 220px;
 }
 
+#cor5 {
+  z-index: 8;
+  position: absolute;
+  background-color: #e3e3e3;
+  width: 227px;
+  height: 310px;
+  transform: translate(920px, 700px);
+}
+
+.form-label1 {
+  position: absolute;
+  z-index: 9;
+  transform: translate(950px, 700px);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17;
+  color: black;
+}
+
+.form-control1, .form-control2, .form-control3 {
+  position: absolute;
+  z-index: 9;
+  width: 170px;
+  height: 30px;
+  padding: 5px; 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px; 
+  color: #333; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  box-sizing: border-box; 
+  background-color: #ffffff; 
+}
+
+textarea.form-control3 {
+  height: 80px;
+  resize: none; 
+}
+
+.form-control1 { transform: translate(950px, 730px); }
+.form-control2 { transform: translate(950px, 800px); }
+.form-control3 { transform: translate(950px, 870px); }
+
+.form-label2 {
+  position: absolute;
+  z-index: 9;
+  transform: translate(950px, 770px);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17;
+  color: black;
+}
+
+.form-label3 {
+  position: absolute;
+  z-index: 9;
+  transform: translate(950px, 840px);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17;
+  color: black;
+}
+
+#enviar {
+  position: absolute;
+  z-index: 9;
+  transform: translate(990px, 960px);
+  background-color: #b6226e; /* Cor de fundo */
+  color: #ffffff; /* Cor do texto */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#enviar:hover {
+  background-color: #000000; /* Cor ao passar o mouse */
+}
