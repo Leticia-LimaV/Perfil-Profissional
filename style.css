@@ -91,7 +91,7 @@
     background-color: #b6226e;
     width: 100%;
     height: 280px;
-    transform: translateY(340px);
+    transform: translateY(150px);
     left: 0;
   }
 
@@ -101,8 +101,8 @@
     position: absolute;
     background-color: #b6226e;
     width: 100%;
-    height: 375px;
-    transform: translateY(652px);
+    height: 430px;
+    transform: translateY(475px);
     left: 0;
   }
 
@@ -118,7 +118,7 @@
 
 #Skills {
   z-index: 4;
-  transform: translate(735px, 350px);
+  transform: translate(735px, 150px);
   text-align: center;
   color: #ffffff;
   position: absolute;
@@ -129,7 +129,7 @@
 #f1 {
   z-index: 10;
   position: absolute;
-  transform: translate(560px, 1210px);
+  transform: translate(560px, 1010px);
   font-family: 'Times New Roman', Times, serif;
   font-size: 17px;
   color: #ffffff;
@@ -142,7 +142,7 @@
   border: 1px solid #ffffff; /* Borda */
   height: 40px;
   border-radius: 10px; /* Borda arredondada */
-  transform: translate(20px, 400px);
+  transform: translate(20px, 200px);
   line-height: 5px ;
 }
 
@@ -153,7 +153,7 @@
   border: 1px solid #ffffff; /* Borda */
   height: 40px;
   border-radius: 10px; /* Borda arredondada */
-  transform: translate(20px, 450px);
+  transform: translate(20px, 250px);
   line-height: 5px ;
 }
 
@@ -164,7 +164,7 @@
   border: 1px solid #ffffff; /* Borda */
   height: 40px;
   border-radius: 10px; /* Borda arredondada */
-  transform: translate(20px, 500px);
+  transform: translate(20px, 300px);
   line-height: 5px ;
 }
 
@@ -175,14 +175,14 @@
   border: 1px solid #ffffff; /* Borda */
   height: 40px;
   border-radius: 10px; /* Borda arredondada */
-  transform: translate(20px, 550px);
+  transform: translate(20px, 350px);
   line-height: 5px ;
 }
 
 #Contato {
   z-index: 7;
   position: absolute;
-  transform: translate(700px, 650px);
+  transform: translate(700px, 480px);
   text-align: center;
   color: #ffffff;
   font-family: 'Times New Roman', Times, serif;
@@ -192,7 +192,7 @@
 #mapa {
   position: absolute;
   z-index: 7;
-  transform: translate(200px, 700px);
+  transform: translate(200px, 530px);
   width: 300px;
   height: 220px;
 }
@@ -202,14 +202,16 @@
   position: absolute;
   background-color: #e3e3e3;
   width: 227px;
-  height: 310px;
-  transform: translate(920px, 700px);
+  height: 350px;
+  transform: translate(920px, 530px);
 }
+
+
 
 .form-label1 {
   position: absolute;
   z-index: 9;
-  transform: translate(950px, 700px);
+  transform: translate(950px, 550px);
   font-family: 'Times New Roman', Times, serif;
   font-size: 17;
   color: black;
@@ -235,14 +237,14 @@ textarea.form-control3 {
   resize: none; 
 }
 
-.form-control1 { transform: translate(950px, 730px); }
-.form-control2 { transform: translate(950px, 800px); }
-.form-control3 { transform: translate(950px, 870px); }
+.form-control1 { transform: translate(950px, 580px); }
+.form-control2 { transform: translate(950px, 655px); }
+.form-control3 { transform: translate(950px, 730px); }
 
 .form-label2 {
   position: absolute;
   z-index: 9;
-  transform: translate(950px, 770px);
+  transform: translate(950px, 625px);
   font-family: 'Times New Roman', Times, serif;
   font-size: 17;
   color: black;
@@ -251,16 +253,17 @@ textarea.form-control3 {
 .form-label3 {
   position: absolute;
   z-index: 9;
-  transform: translate(950px, 840px);
+  transform: translate(950px, 700px);
   font-family: 'Times New Roman', Times, serif;
   font-size: 17;
   color: black;
 }
 
+
 #enviar {
   position: absolute;
   z-index: 9;
-  transform: translate(990px, 960px);
+  transform: translate(990px, 820px);
   background-color: #b6226e; /* Cor de fundo */
   color: #ffffff; /* Cor do texto */
   font-family: 'Times New Roman', Times, serif;
@@ -282,7 +285,7 @@ textarea.form-control3 {
   width: 100%;
   left: 0;
   height: 70px;
-  transform: translateY(1200px);
+  transform: translateY(1000px);
 }
 
 .portfolio-imagens {
